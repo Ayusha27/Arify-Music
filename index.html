@@ -8,7 +8,7 @@
     <body>
          <div class = "container">
               <div class = "navbar">
-                     <img src="images/logoArify.jpeg" class= "logo">
+                     <img src="LOGO.jpeg" class= "logo">
                      <ul>
                           <li><a href="https://open.spotify.com/embed/playlist/3QOfUQqrZD3XlW27QYx4lX">HOME</a>
                         </li>
@@ -26,12 +26,12 @@
                 </div>
                 <div class="right-col"></div>
                 <p>Click Here To Listen</p>
-                <img src="images/play.png"  id="icon">
+                <img src="play.png"  id="icon">
             </div>
         </div>
     </div>
     <audio id="Song">
-         <source src="images/03-NASA.mp3" type="audio/mp3">
+         <source src="03-NASA.mp3" type="audio/mp3">
 
 
     </audio>
@@ -42,10 +42,10 @@
                   icon.onclick = function(){
                       if(Song.paused){
                         Song.play();
-                        icon.src = "images/pause.jpg";
+                        icon.src = "pause.jpg";
                       }else{
                           Song.pause();
-                          icon.src = "images/03-NASA.mp3";
+                          icon.src = "03-NASA.mp3";
                       }
                     
                   }
